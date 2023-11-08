@@ -9,23 +9,23 @@ AFFINDA_WORKSPACE=settings.AFFINDA_WORKSPACE
 
 
 def extract_data(file):
-    # files = { "file": (f'media/documents/{file}', open(f'media/documents/{file}', "rb"), "application/pdf") }
-    # payload = {
-    #     "wait": "true",
-    #     "workspace": AFFINDA_WORKSPACE
-    # }
-    # headers = {
-    #     "accept": "application/json",
-    #     "authorization": "Bearer "+str(AFFINDA_API_KEY)
-    # }
+    files = { "file": (f'media/documents/{file}', open(f'media/documents/{file}', "rb"), "application/pdf") }
+    payload = {
+        "wait": "true",
+        "workspace": AFFINDA_WORKSPACE
+    }
+    headers = {
+        "accept": "application/json",
+        "authorization": "Bearer "+str(AFFINDA_API_KEY)
+    }
 
-    # response = requests.post(url, data=payload, files=files, headers=headers)
-    # data=json.loads(response.text)['data']
+    response = requests.post(url, data=payload, files=files, headers=headers)
+    data=json.loads(response.text)['data']
     # print(response.text)
 
-    with open("response.json") as json_file:
-        data = json.load(json_file)
-        # print(data['data'])
-    data=data['data']
+    # with open("response.json") as json_file:
+    #     data = json.load(json_file)
+    #     # print(data['data'])
+    # data=data['data']
 
     return data
