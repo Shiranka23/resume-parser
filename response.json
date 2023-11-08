@@ -1,0 +1,772 @@
+{
+            "data": {
+                "certifications": [],
+                "dateOfBirth": null,
+                "education": [
+                    {
+                        "id": 39620185,
+                        "organization": "Galgotias College of Engineering & Technology",
+                        "accreditation": {
+                            "education": "MCA(201",
+                            "educationLevel": "masters",
+                            "inputStr": "MCA(201",
+                            "matchStr": ""
+                        },
+                        "grade": {
+                            "raw": "79.9%",
+                            "value": "79.9%",
+                            "metric": null
+                        },
+                        "location": null,
+                        "dates": {
+                            "startDate": null,
+                            "completionDate": "2022-09-01",
+                            "isCurrent": false,
+                            "rawText": "9-2022)"
+                        }
+                    },
+                    {
+                        "id": 39620186,
+                        "organization": "Chhatrapati Shahu Ji Maharaj University",
+                        "accreditation": {
+                            "education": "BCA(201",
+                            "educationLevel": "bachelors",
+                            "inputStr": "BCA(201",
+                            "matchStr": ""
+                        },
+                        "grade": {
+                            "raw": "60.16%",
+                            "value": "60.16%",
+                            "metric": null
+                        },
+                        "location": null,
+                        "dates": null
+                    },
+                    {
+                        "id": 39620187,
+                        "organization": "RSGU Inter College Pokhrayan",
+                        "accreditation": {
+                            "educationLevel": null,
+                            "inputStr": "",
+                            "matchStr": ""
+                        },
+                        "grade": {
+                            "raw": "76.6%",
+                            "value": "76.6%",
+                            "metric": null
+                        },
+                        "location": null,
+                        "dates": null
+                    },
+                    {
+                        "id": 39620188,
+                        "organization": "RSGU Inter College Pokhrayan",
+                        "accreditation": {
+                            "education": "High",
+                            "educationLevel": null,
+                            "inputStr": "High",
+                            "matchStr": ""
+                        },
+                        "grade": {
+                            "raw": "83.16%",
+                            "value": "83.16%",
+                            "metric": null
+                        },
+                        "location": null,
+                        "dates": {
+                            "startDate": null,
+                            "completionDate": "2014-03-01",
+                            "isCurrent": false,
+                            "rawText": "3-2014)"
+                        }
+                    }
+                ],
+                "emails": [
+                    "abhishekpal.ap98@gmail.com"
+                ],
+                "location": {
+                    "formatted": "Sector 44, Noida, UP, India",
+                    "streetNumber": null,
+                    "street": null,
+                    "apartmentNumber": null,
+                    "city": "Noida",
+                    "postalCode": null,
+                    "state": "Uttar Pradesh",
+                    "country": "India",
+                    "rawInput": "Sector- 44 Noida Up",
+                    "countryCode": "IN",
+                    "latitude": 28.554835,
+                    "longitude": 77.337925
+                },
+                "name": {
+                    "raw": "ABHISHEK PAL",
+                    "last": "Pal",
+                    "first": "Abhishek",
+                    "title": "",
+                    "middle": ""
+                },
+                "objective": "",
+                "phoneNumbers": [
+                    "+918739040745"
+                ],
+                "phoneNumberDetails": [
+                    {
+                        "rawText": "+918739040745",
+                        "formattedNumber": "+91 87390 40745",
+                        "countryCode": "IN",
+                        "internationalCountryCode": 91,
+                        "nationalNumber": "087390 40745"
+                    }
+                ],
+                "publications": [],
+                "referees": [],
+                "sections": [
+                    {
+                        "bbox": [
+                            46.04176,
+                            59.021545,
+                            282.71948,
+                            229.25977
+                        ],
+                        "text": "ABHISHEK PAL React Native Developer CONTACT 8739040745 abhishekpal.ap98@gmail.com Sector- 44 Noida Up https://github.com/",
+                        "pageIndex": 0,
+                        "sectionType": "PersonalDetails"
+                    },
+                    {
+                        "bbox": [
+                            24.46858,
+                            255.61786,
+                            213.90361,
+                            536.53503
+                        ],
+                        "text": "EDUCATION Galgotias College of Engineering & Technology MCA(201 9-2022) Percentage: 79.9% Chhatrapati Shahu ji Maharaj University BCA(201 6-201 9) Percentage: 60.16% RSGU Inter College Pokhrayan Intermediate(201 5-201 6) Percentage: 76.6% RSGU Inter College Pokhrayan High School(201 3-2014) Percentage: 83.16%",
+                        "pageIndex": 0,
+                        "sectionType": "Education"
+                    },
+                    {
+                        "bbox": [
+                            20.259665,
+                            564.7716,
+                            208.73766,
+                            755.2563
+                        ],
+                        "text": "SKILLS Proficient in Java,Javascript,C++ and Kotlin programming languages and DSA Strong understanding of Cross-Platform Development , Android App development and version control systems (Git) Experience with RESTful APIs and JSON integration Familiarity with UI/UX design principles and Material Design guidelines Excellent problem-solving and debugging skills",
+                        "pageIndex": 0,
+                        "sectionType": "Skills/Interests/Languages"
+                    },
+                    {
+                        "bbox": [
+                            262.76608,
+                            130.23285,
+                            553.66986,
+                            230.6648
+                        ],
+                        "text": "PROFILE Skilled React Native developer with 1 year of experience in developing robust and user-friendly mobile applications. Proficient in leveraging React Native framework to build cross-platform applications.Also experienced in Android Native developement to build android applications.",
+                        "pageIndex": 0,
+                        "sectionType": "Summary"
+                    },
+                    {
+                        "bbox": [
+                            262.23703,
+                            269.72522,
+                            542.6733,
+                            664.2793
+                        ],
+                        "text": "WORK EXPERIENCE REACT NATIVE DEVELOPER Scalacode Global Pvt. Ltd. Noida October 2022 - Present Developed Cross-Platform applications in collaboration with a team of developers. Integrated RESTful APIs for data retrieval and storage using axios and JSON parsing. Login and send notification through Firebase in React Native Proficient in state management with Redux effectively managing application state and data flow in React Native projects. Familiarity with navigation libraries like React Navigation or React Native Navigation, enabling seamless and intuitive navigation flows within React Native apps. ANDROID DEVELOPER TRAINEE TechTree It Systems Noida April 2022 - June 2022",
+                        "pageIndex": 0,
+                        "sectionType": "WorkExperience"
+                    },
+                    {
+                        "bbox": [
+                            246.34341,
+                            684.27295,
+                            582.9706,
+                            790.425
+                        ],
+                        "text": "PROJECTS FoodApp It is an application that is developed for ordering food online. Language Used: Kotlin Framework used: Android Challenge It is an application that is developed for solve the challenges raised by people. Language Used: Javascript Framework used: React Native",
+                        "pageIndex": 0,
+                        "sectionType": "Projects"
+                    }
+                ],
+                "skills": [
+                    {
+                        "id": 427080367,
+                        "emsiId": "KSGQ9QZ5IFB2Q2JYUENP",
+                        "name": "Kotlin",
+                        "lastUsed": null,
+                        "numberOfMonths": null,
+                        "type": "hard_skill",
+                        "sources": [
+                            {
+                                "section": "Projects",
+                                "position": null,
+                                "workExperienceId": null
+                            },
+                            {
+                                "section": "Skills/Interests/Languages",
+                                "position": null,
+                                "workExperienceId": null
+                            },
+                            {
+                                "section": "Projects",
+                                "position": null,
+                                "workExperienceId": null
+                            },
+                            {
+                                "section": "Skills/Interests/Languages",
+                                "position": null,
+                                "workExperienceId": null
+                            }
+                        ]
+                    },
+                    {
+                        "id": 427080368,
+                        "emsiId": "KS1202B652YN84D9KXMX",
+                        "name": "User Experience Design (UX)",
+                        "lastUsed": "2023-10-31",
+                        "numberOfMonths": 13,
+                        "type": "hard_skill",
+                        "sources": [
+                            {
+                                "section": "WorkExperience",
+                                "position": 0,
+                                "workExperienceId": 73748655
+                            },
+                            {
+                                "section": "Skills/Interests/Languages",
+                                "position": null,
+                                "workExperienceId": null
+                            }
+                        ]
+                    },
+                    {
+                        "id": 427080369,
+                        "emsiId": "KS122CS6VVDJ1FYVYVLJ",
+                        "name": "Control Systems",
+                        "lastUsed": null,
+                        "numberOfMonths": null,
+                        "type": "hard_skill",
+                        "sources": [
+                            {
+                                "section": "Skills/Interests/Languages",
+                                "position": null,
+                                "workExperienceId": null
+                            }
+                        ]
+                    },
+                    {
+                        "id": 427080370,
+                        "emsiId": "KS120076FGP5WGWYMP0F",
+                        "name": "Java (Programming Language)",
+                        "lastUsed": null,
+                        "numberOfMonths": null,
+                        "type": "hard_skill",
+                        "sources": [
+                            {
+                                "section": "Projects",
+                                "position": null,
+                                "workExperienceId": null
+                            },
+                            {
+                                "section": "Skills/Interests/Languages",
+                                "position": null,
+                                "workExperienceId": null
+                            }
+                        ]
+                    },
+                    {
+                        "id": 427080371,
+                        "emsiId": "KS120GZ5YXC6YVM1NGPR",
+                        "name": "Android (Operating System)",
+                        "lastUsed": null,
+                        "numberOfMonths": null,
+                        "type": "soft_skill",
+                        "sources": [
+                            {
+                                "section": "Projects",
+                                "position": null,
+                                "workExperienceId": null
+                            },
+                            {
+                                "section": "Skills/Interests/Languages",
+                                "position": null,
+                                "workExperienceId": null
+                            },
+                            {
+                                "section": "Summary",
+                                "position": null,
+                                "workExperienceId": null
+                            },
+                            {
+                                "section": "WorkExperience",
+                                "position": null,
+                                "workExperienceId": null
+                            },
+                            {
+                                "section": "Projects",
+                                "position": null,
+                                "workExperienceId": null
+                            },
+                            {
+                                "section": "Skills/Interests/Languages",
+                                "position": null,
+                                "workExperienceId": null
+                            },
+                            {
+                                "section": "Summary",
+                                "position": null,
+                                "workExperienceId": null
+                            },
+                            {
+                                "section": "WorkExperience",
+                                "position": null,
+                                "workExperienceId": null
+                            }
+                        ]
+                    },
+                    {
+                        "id": 427080372,
+                        "emsiId": "KS1222C6WKYWRKRXQCR0",
+                        "name": "Version Control",
+                        "lastUsed": null,
+                        "numberOfMonths": null,
+                        "type": "hard_skill",
+                        "sources": [
+                            {
+                                "section": "Skills/Interests/Languages",
+                                "position": null,
+                                "workExperienceId": null
+                            }
+                        ]
+                    },
+                    {
+                        "id": 427080373,
+                        "emsiId": "KS1OE5WEHWVC8H6CG96R",
+                        "name": "Material Design",
+                        "lastUsed": null,
+                        "numberOfMonths": null,
+                        "type": "hard_skill",
+                        "sources": [
+                            {
+                                "section": "Skills/Interests/Languages",
+                                "position": null,
+                                "workExperienceId": null
+                            }
+                        ]
+                    },
+                    {
+                        "id": 427080374,
+                        "emsiId": "KS125716TLTGH6SDHJD1",
+                        "name": "Integration",
+                        "lastUsed": null,
+                        "numberOfMonths": null,
+                        "type": "soft_skill",
+                        "sources": [
+                            {
+                                "section": "Skills/Interests/Languages",
+                                "position": null,
+                                "workExperienceId": null
+                            }
+                        ]
+                    },
+                    {
+                        "id": 427080375,
+                        "emsiId": "KS1200364C9C1LK3V5Q1",
+                        "name": "C (Programming Language)",
+                        "lastUsed": "2023-10-31",
+                        "numberOfMonths": 15,
+                        "type": "hard_skill",
+                        "sources": [
+                            {
+                                "section": "WorkExperience",
+                                "position": 0,
+                                "workExperienceId": 73748655
+                            },
+                            {
+                                "section": "WorkExperience",
+                                "position": 1,
+                                "workExperienceId": 73748656
+                            },
+                            {
+                                "section": "PersonalDetails",
+                                "position": null,
+                                "workExperienceId": null
+                            },
+                            {
+                                "section": "Projects",
+                                "position": null,
+                                "workExperienceId": null
+                            },
+                            {
+                                "section": "Skills/Interests/Languages",
+                                "position": null,
+                                "workExperienceId": null
+                            },
+                            {
+                                "section": "Summary",
+                                "position": null,
+                                "workExperienceId": null
+                            }
+                        ]
+                    },
+                    {
+                        "id": 427080376,
+                        "emsiId": "KS1H7C2ZC7LXQQ6UN22I",
+                        "name": "Firebase",
+                        "lastUsed": "2023-10-31",
+                        "numberOfMonths": 13,
+                        "type": "hard_skill",
+                        "sources": [
+                            {
+                                "section": "WorkExperience",
+                                "position": 0,
+                                "workExperienceId": 73748655
+                            }
+                        ]
+                    },
+                    {
+                        "id": 427080377,
+                        "emsiId": "KS1200771D9CR9LB4MWW",
+                        "name": "JavaScript (Programming Language)",
+                        "lastUsed": null,
+                        "numberOfMonths": null,
+                        "type": "hard_skill",
+                        "sources": [
+                            {
+                                "section": "Projects",
+                                "position": null,
+                                "workExperienceId": null
+                            },
+                            {
+                                "section": "Skills/Interests/Languages",
+                                "position": null,
+                                "workExperienceId": null
+                            },
+                            {
+                                "section": "Projects",
+                                "position": null,
+                                "workExperienceId": null
+                            },
+                            {
+                                "section": "Skills/Interests/Languages",
+                                "position": null,
+                                "workExperienceId": null
+                            }
+                        ]
+                    },
+                    {
+                        "id": 427080378,
+                        "emsiId": "ESE6B3EECE8D49449D5C",
+                        "name": "Intuitive Navigation",
+                        "lastUsed": "2023-10-31",
+                        "numberOfMonths": 13,
+                        "type": "hard_skill",
+                        "sources": [
+                            {
+                                "section": "WorkExperience",
+                                "position": 0,
+                                "workExperienceId": 73748655
+                            }
+                        ]
+                    },
+                    {
+                        "id": 427080379,
+                        "emsiId": "KS7AASDV6UOE7VFBGF4D",
+                        "name": "Collaboration",
+                        "lastUsed": "2023-10-31",
+                        "numberOfMonths": 13,
+                        "type": "soft_skill",
+                        "sources": [
+                            {
+                                "section": "WorkExperience",
+                                "position": 0,
+                                "workExperienceId": 73748655
+                            }
+                        ]
+                    },
+                    {
+                        "id": 427080382,
+                        "emsiId": "KSPSGF5MXB6568UIQ4BK",
+                        "name": "React Native",
+                        "lastUsed": "2023-10-31",
+                        "numberOfMonths": 13,
+                        "type": "hard_skill",
+                        "sources": [
+                            {
+                                "section": "WorkExperience",
+                                "position": 0,
+                                "workExperienceId": 73748655
+                            },
+                            {
+                                "section": "Projects",
+                                "position": null,
+                                "workExperienceId": null
+                            },
+                            {
+                                "section": "Summary",
+                                "position": null,
+                                "workExperienceId": null
+                            },
+                            {
+                                "section": "PersonalDetails",
+                                "position": null,
+                                "workExperienceId": null
+                            }
+                        ]
+                    },
+                    {
+                        "id": 427080383,
+                        "emsiId": "KS1218W78FGVPVP2KXPX",
+                        "name": "Management",
+                        "lastUsed": "2023-10-31",
+                        "numberOfMonths": 13,
+                        "type": "soft_skill",
+                        "sources": [
+                            {
+                                "section": "WorkExperience",
+                                "position": 0,
+                                "workExperienceId": 73748655
+                            }
+                        ]
+                    },
+                    {
+                        "id": 427080366,
+                        "emsiId": "KS122SG5Y0Q5YQM7V8KT",
+                        "name": "Debugging",
+                        "lastUsed": null,
+                        "numberOfMonths": null,
+                        "type": "hard_skill",
+                        "sources": [
+                            {
+                                "section": "Skills/Interests/Languages",
+                                "position": null,
+                                "workExperienceId": null
+                            }
+                        ]
+                    },
+                    {
+                        "id": 427080380,
+                        "emsiId": "KS125HM6044N46LPQLH1",
+                        "name": "JSON",
+                        "lastUsed": "2023-10-31",
+                        "numberOfMonths": 13,
+                        "type": "hard_skill",
+                        "sources": [
+                            {
+                                "section": "WorkExperience",
+                                "position": 0,
+                                "workExperienceId": 73748655
+                            },
+                            {
+                                "section": "WorkExperience",
+                                "position": 0,
+                                "workExperienceId": 73748655
+                            },
+                            {
+                                "section": "Skills/Interests/Languages",
+                                "position": null,
+                                "workExperienceId": null
+                            },
+                            {
+                                "section": "Skills/Interests/Languages",
+                                "position": null,
+                                "workExperienceId": null
+                            }
+                        ]
+                    },
+                    {
+                        "id": 427080381,
+                        "emsiId": "KS122PY6ZRDL0TD5GSH4",
+                        "name": "Data Retrieval",
+                        "lastUsed": "2023-10-31",
+                        "numberOfMonths": 13,
+                        "type": "hard_skill",
+                        "sources": [
+                            {
+                                "section": "WorkExperience",
+                                "position": 0,
+                                "workExperienceId": 73748655
+                            }
+                        ]
+                    }
+                ],
+                "languages": [
+                    "English"
+                ],
+                "summary": "Skilled React Native developer with 1 year of experience in developing robust and user-friendly mobile applications. Proficient in leveraging React Native framework to build cross-platform applications.Also experienced in Android Native developement to build android applications.",
+                "websites": [
+                    "https://github.com/"
+                ],
+                "linkedin": null,
+                "totalYearsExperience": 1,
+                "profession": "React / React Native",
+                "workExperience": [
+                    {
+                        "id": 73748655,
+                        "jobTitle": "REACT NATIVE DEVELOPER",
+                        "organization": "Scala code Global PVT LTD",
+                        "location": {
+                            "formatted": "Noida, Uttar Pradesh, India",
+                            "streetNumber": null,
+                            "street": null,
+                            "apartmentNumber": null,
+                            "city": "Noida",
+                            "postalCode": null,
+                            "state": "Uttar Pradesh",
+                            "country": "India",
+                            "rawInput": "Noida",
+                            "countryCode": "IN",
+                            "latitude": 28.5355161,
+                            "longitude": 77.3910265
+                        },
+                        "dates": {
+                            "startDate": "2022-10-01",
+                            "endDate": "2023-10-31",
+                            "monthsInPosition": 13,
+                            "isCurrent": true,
+                            "rawText": "October 2022 - Present"
+                        },
+                        "jobDescription": "Developed Cross-Platform applications in collaboration with a team of developers. Integrated RESTful APIs for data retrieval and storage using axios and JSON parsing. Login and send notification through Firebase in React Native Proficient in state management with Redux effectively managing application state and data flow in React Native projects. Familiarity with navigation libraries like React Navigation or React Native Navigation, enabling seamless and intuitive navigation flows within React Native apps. ",
+                        "occupation": {
+                            "jobTitle": "REACT NATIVE DEVELOPER",
+                            "jobTitleNormalized": "React Native Developer",
+                            "classification": {
+                                "socCode": 2134,
+                                "title": "Programmers and software development professionals ",
+                                "minorGroup": "Information Technology Professionals",
+                                "subMajorGroup": "SCIENCE, RESEARCH, ENGINEERING AND TECHNOLOGY PROFESSIONALS",
+                                "majorGroup": "PROFESSIONAL OCCUPATIONS",
+                                "minorGroupCode": 213,
+                                "subMajorGroupCode": 21,
+                                "majorGroupCode": 2
+                            },
+                            "managementLevel": "Low",
+                            "emsiId": "ETEBFD138EF72E830D"
+                        }
+                    },
+                    {
+                        "id": 73748656,
+                        "jobTitle": "ANDROID DEVELOPER TRAINEE",
+                        "organization": "Techtree it Systems",
+                        "location": {
+                            "formatted": "Noida, Uttar Pradesh, India",
+                            "streetNumber": null,
+                            "street": null,
+                            "apartmentNumber": null,
+                            "city": "Noida",
+                            "postalCode": null,
+                            "state": "Uttar Pradesh",
+                            "country": "India",
+                            "rawInput": "Noida",
+                            "countryCode": "IN",
+                            "latitude": 28.5355161,
+                            "longitude": 77.3910265
+                        },
+                        "dates": {
+                            "startDate": "2022-04-01",
+                            "endDate": "2022-06-01",
+                            "monthsInPosition": 2,
+                            "isCurrent": false,
+                            "rawText": "April 2022 - June 2022"
+                        },
+                        "jobDescription": "",
+                        "occupation": {
+                            "jobTitle": "ANDROID DEVELOPER TRAINEE",
+                            "jobTitleNormalized": "Android Developer",
+                            "classification": {
+                                "socCode": 2134,
+                                "title": "Programmers and software development professionals ",
+                                "minorGroup": "Information Technology Professionals",
+                                "subMajorGroup": "SCIENCE, RESEARCH, ENGINEERING AND TECHNOLOGY PROFESSIONALS",
+                                "majorGroup": "PROFESSIONAL OCCUPATIONS",
+                                "minorGroupCode": 213,
+                                "subMajorGroupCode": 21,
+                                "majorGroupCode": 2
+                            },
+                            "managementLevel": "Low",
+                            "emsiId": "ETFDC754E43F28F6F0"
+                        }
+                    }
+                ],
+                "headShot": null,
+                "isResumeProbability": 99,
+                "rawText": "ABHISHEK PAL React Native Developer CONTACT 8739040745 abhishekpal.ap98@gmail.com Sector- 44 Noida Up https://github.com/\nEDUCATION Galgotias College of Engineering & Technology MCA(201 9-2022) Percentage: 79.9% Chhatrapati Shahu ji Maharaj University BCA(201 6-201 9) Percentage: 60.16% RSGU Inter College Pokhrayan Intermediate(201 5-201 6) Percentage: 76.6% RSGU Inter College Pokhrayan High School(201 3-2014) Percentage: 83.16%\nSKILLS Proficient in Java,Javascript,C++ and Kotlin programming languages and DSA Strong understanding of Cross-Platform Development , Android App development and version control systems (Git) Experience with RESTful APIs and JSON integration Familiarity with UI/UX design principles and Material Design guidelines Excellent problem-solving and debugging skills\nPROFILE Skilled React Native developer with 1 year of experience in developing robust and user-friendly mobile applications. Proficient in leveraging React Native framework to build cross-platform applications.Also experienced in Android Native developement to build android applications.\nWORK EXPERIENCE REACT NATIVE DEVELOPER Scalacode Global Pvt. Ltd. Noida October 2022 - Present Developed Cross-Platform applications in collaboration with a team of developers. Integrated RESTful APIs for data retrieval and storage using axios and JSON parsing. Login and send notification through Firebase in React Native Proficient in state management with Redux effectively managing application state and data flow in React Native projects. Familiarity with navigation libraries like React Navigation or React Native Navigation, enabling seamless and intuitive navigation flows within React Native apps. ANDROID DEVELOPER TRAINEE TechTree It Systems Noida April 2022 - June 2022\nPROJECTS FoodApp It is an application that is developed for ordering food online. Language Used: Kotlin Framework used: Android Challenge It is an application that is developed for solve the challenges raised by people. Language Used: Javascript Framework used: React Native",
+                "redactedText": "******** *** React Native Developer CONTACT ********** ************************** ******* ** ***** ** *******************\nEDUCATION Galgotias College of Engineering & Technology MCA(201 ******* Percentage: 79.9% Chhatrapati Shahu ji Maharaj University BCA(201 ***** ** Percentage: 60.16% RSGU Inter College Pokhrayan **************** ***** ** Percentage: 76.6% RSGU Inter College Pokhrayan High School(201 ******* Percentage: 83.16%\nSKILLS Proficient in Java,Javascript,C++ and Kotlin programming languages and DSA Strong understanding of Cross-Platform Development , Android App development and version control systems (Git) Experience with RESTful APIs and JSON integration Familiarity with UI/UX design principles and Material Design guidelines Excellent problem-solving and debugging skills\nPROFILE Skilled React Native developer with 1 year of experience in developing robust and user-friendly mobile applications. Proficient in leveraging React Native framework to build cross-platform applications.Also experienced in Android Native developement to build android applications.\nWORK EXPERIENCE REACT NATIVE DEVELOPER Scalacode Global Pvt. Ltd. ***** ******* **** * ******* Developed Cross-Platform applications in collaboration with a team of developers. Integrated RESTful APIs for data retrieval and storage using axios and JSON parsing. Login and send notification through Firebase in React Native Proficient in state management with Redux effectively managing application state and data flow in React Native projects. Familiarity with navigation libraries like React Navigation or React Native Navigation, enabling seamless and intuitive navigation flows within React Native apps. ANDROID DEVELOPER TRAINEE TechTree It Systems ***** ***** **** * **** ****\nPROJECTS FoodApp It is an application that is developed for ordering food online. Language Used: Kotlin Framework used: Android Challenge It is an application that is developed for solve the challenges raised by people. Language Used: Javascript Framework used: React Native"
+            },
+            "meta": {
+                "identifier": "tdJAOQII",
+                "customIdentifier": null,
+                "ready": true,
+                "failed": false,
+                "readyDt": "2023-10-31T10:03:27.951711Z",
+                "fileName": "resume.pdf",
+                "expiryTime": null,
+                "language": "en",
+                "pdf": "https://affinda-api-data-prod-ap1.s3.amazonaws.com/media/documents/resume_ViPYIY9.pdf?versionId=RfxONIJ2E271Y.5sdLcCnMm0Tb8tD4sK&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAU4IX6YWNIXENXZXQ%2F20231031%2Fap-southeast-2%2Fs3%2Faws4_request&X-Amz-Date=20231031T100328Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEML%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLXNvdXRoZWFzdC0yIkUwQwIfcfLFw4Qy6GAw3Fnvg7VFp3omdYWvl6nrHL0tlvQxlQIgIVsI38%2BZuUa6%2ByHM0siTclI0A52pi18FsKGUxYBi2f0qkgUI6%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARACGgwzMzU1OTQ1NzExNjIiDD%2FAT50ypdTGjX%2F7xCrmBItuLJ2YHzC86dp%2FJ8V0WYkOZlV%2Ff1yTgvrsav%2Be1g7Jo61sxFkxmBhGx993RR0GWjMlXKUqfHrA53hD%2BiCQ6gkOHi9VkJEXkwU8VUEnmdri6SWcGhBV6oHt05QuK312LfLOkhRU9P3LT95DtPZrcTXFh2EO7FtVLf2PRuY4%2BXLRaifstZlShPzvVCBWrIXVyGI0UBUoFCmRTp3ZfA2yXSJOqqpDaIdInXmA8OKxs%2BGZVkNwCLOMHq7Y8mUfbGMz6d3FsoquEoju3WUiK91sTnKDbXqgeho3A0LxegpT3hteGgKhHO5AftH97ojy8FSRHehiVzeaAngceeI5CQyV5wZ3urOlX4ZHo9o%2B4xlP9QJkcmOLD4ahE8U1RljNSYiIAbV8szTpis81Na%2F3xwdXKv173evaWu%2F1qhB3e1iZmm2K1qrwsRzELBAoKCuUd7qCV3qYb9HCr7TuI9pVlFhc95Yqve6VbvMuRaGuTpd4EsV1vFEiN1ieqKnbV1K5BerqZFjrCjcjQORvEZGHe%2F8IyzmP98X9XlH0zl1r32sUGmE0ijq3Sv0IE0cHaQF0kxNnLG3xtVOrbgd%2BvA9wTP0Zp%2FBWtH43dkQYw3rpBAeH0UF6%2BBlP9qW2t%2BbbNIiinpRsd3XpcwRHJWMtHRoz9Wxnc6Lj%2Fb6F2SHERH0rMA88qSbMFep3UmMY5HHi9RANCZxAqXU9tYhtKepjt3SPcwgoPLvMYdxEjZ7rOzs0jsEtqwwMt1A7KFSnOP6X7OSPpuGyPwYcdASzRBJYOLDdTR2riBKBWqU%2BKtgN0OCb1RIMAeOA6PSubUZcMKSUg6oGOpwBrnRBGu1wksCIb%2FBTWPa6MV5%2FJx2RO4ftxQ5aAtijpMQaPfGkWahLwXq9V%2F2f17vvhMw6o4kkr3vjz1B8M3jq%2Bl8k3UcLIgQDYJrgFYkbc6Y01NAJ%2FXiD4VaGWexykv8JNcSd%2FkCnWA7AOjf%2FYO7tRhINR%2F8upurCtsGAs16Fum0LjjVsMrc5MmIx3bsk%2F6lPPHYXnWhov6qSPvT1&X-Amz-Signature=20b70fc1a7a4a3024de998ab77266cb5427f214b64d5256632491eaa9340817f",
+                "parentDocument": null,
+                "childDocuments": [],
+                "pages": [
+                    {
+                        "id": 42983510,
+                        "pageIndex": 0,
+                        "image": null,
+                        "height": 842.25,
+                        "width": 595.5,
+                        "rotation": 0,
+                        "imageTranslated": null
+                    }
+                ],
+                "ocrConfidence": null,
+                "reviewUrl": "https://app.affinda.com/review/tdJAOQII?signature=eyJ1c2VyX2lkIjoxMDYxOH0:1qxlaq:dFtH5__7l5gezo-sUMeZvjAJIJyiF4B9l16iybxBZ_k:1qxlaq:8m53yssWwLqdnTnqY5iELaXAOBmmCzqsAxK1QssXAGM",
+                "createdDt": "2023-10-31T10:03:26.483612Z",
+                "errorDetail": null,
+                "file": "https://affinda-api-data-prod-ap1.s3.amazonaws.com/media/documents/resume_ViPYIY9.pdf?versionId=RfxONIJ2E271Y.5sdLcCnMm0Tb8tD4sK&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAU4IX6YWNIXENXZXQ%2F20231031%2Fap-southeast-2%2Fs3%2Faws4_request&X-Amz-Date=20231031T100328Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEML%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLXNvdXRoZWFzdC0yIkUwQwIfcfLFw4Qy6GAw3Fnvg7VFp3omdYWvl6nrHL0tlvQxlQIgIVsI38%2BZuUa6%2ByHM0siTclI0A52pi18FsKGUxYBi2f0qkgUI6%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARACGgwzMzU1OTQ1NzExNjIiDD%2FAT50ypdTGjX%2F7xCrmBItuLJ2YHzC86dp%2FJ8V0WYkOZlV%2Ff1yTgvrsav%2Be1g7Jo61sxFkxmBhGx993RR0GWjMlXKUqfHrA53hD%2BiCQ6gkOHi9VkJEXkwU8VUEnmdri6SWcGhBV6oHt05QuK312LfLOkhRU9P3LT95DtPZrcTXFh2EO7FtVLf2PRuY4%2BXLRaifstZlShPzvVCBWrIXVyGI0UBUoFCmRTp3ZfA2yXSJOqqpDaIdInXmA8OKxs%2BGZVkNwCLOMHq7Y8mUfbGMz6d3FsoquEoju3WUiK91sTnKDbXqgeho3A0LxegpT3hteGgKhHO5AftH97ojy8FSRHehiVzeaAngceeI5CQyV5wZ3urOlX4ZHo9o%2B4xlP9QJkcmOLD4ahE8U1RljNSYiIAbV8szTpis81Na%2F3xwdXKv173evaWu%2F1qhB3e1iZmm2K1qrwsRzELBAoKCuUd7qCV3qYb9HCr7TuI9pVlFhc95Yqve6VbvMuRaGuTpd4EsV1vFEiN1ieqKnbV1K5BerqZFjrCjcjQORvEZGHe%2F8IyzmP98X9XlH0zl1r32sUGmE0ijq3Sv0IE0cHaQF0kxNnLG3xtVOrbgd%2BvA9wTP0Zp%2FBWtH43dkQYw3rpBAeH0UF6%2BBlP9qW2t%2BbbNIiinpRsd3XpcwRHJWMtHRoz9Wxnc6Lj%2Fb6F2SHERH0rMA88qSbMFep3UmMY5HHi9RANCZxAqXU9tYhtKepjt3SPcwgoPLvMYdxEjZ7rOzs0jsEtqwwMt1A7KFSnOP6X7OSPpuGyPwYcdASzRBJYOLDdTR2riBKBWqU%2BKtgN0OCb1RIMAeOA6PSubUZcMKSUg6oGOpwBrnRBGu1wksCIb%2FBTWPa6MV5%2FJx2RO4ftxQ5aAtijpMQaPfGkWahLwXq9V%2F2f17vvhMw6o4kkr3vjz1B8M3jq%2Bl8k3UcLIgQDYJrgFYkbc6Y01NAJ%2FXiD4VaGWexykv8JNcSd%2FkCnWA7AOjf%2FYO7tRhINR%2F8upurCtsGAs16Fum0LjjVsMrc5MmIx3bsk%2F6lPPHYXnWhov6qSPvT1&X-Amz-Signature=20b70fc1a7a4a3024de998ab77266cb5427f214b64d5256632491eaa9340817f",
+                "collection": {
+                    "identifier": "LvJDtivF",
+                    "name": "Resumes",
+                    "extractor": {
+                        "id": 6,
+                        "identifier": "resume",
+                        "name": "Resume",
+                        "baseExtractor": null,
+                        "validatable": true
+                    }
+                },
+                "workspace": {
+                    "identifier": "BZWVsBZy",
+                    "name": "Resume Parser"
+                },
+                "tags": [],
+                "isOcrd": false,
+                "isConfirmed": false,
+                "confirmedDt": null,
+                "isRejected": false,
+                "rejectedDt": null,
+                "isArchived": false,
+                "archivedDt": null,
+                "errorCode": null,
+                "confirmedBy": null,
+                "sourceEmail": null,
+                "createdBy": {
+                    "id": 10618,
+                    "name": "Shivansh",
+                    "username": "shivansh.kate",
+                    "email": "shivansh.kate@digimonk.in",
+                    "avatar": null,
+                    "master": null
+                },
+                "regionBias": {
+                    "country": null,
+                    "countries": null,
+                    "squareCoordinates": null
+                }
+            },
+            "error": {
+                "errorCode": null,
+                "errorDetail": null
+            },
+            "warnings": [],
+            "extractor": "resume"
+        }
+
+        

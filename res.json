@@ -1,0 +1,86 @@
+{
+    "data": {},
+    "meta": {
+        "identifier": "vYTRXlrK",
+        "customIdentifier": null,
+        "ready": true,
+        "failed": true,
+        "readyDt": "2023-11-07T13:54:37.877080Z",
+        "fileName": "d029985e.pdf",
+        "expiryTime": null,
+        "language": "en",
+        "pdf": "https://affinda-api-data-prod-ap1.s3.amazonaws.com/media/documents/d029985e_XwTntEy.pdf?versionId=I_cuKVo.hom6nWeAyCWAd7VOfzbq69AM&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAU4IX6YWNMPPNHSU5%2F20231107%2Fap-southeast-2%2Fs3%2Faws4_request&X-Amz-Date=20231107T135438Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEG4aDmFwLXNvdXRoZWFzdC0yIkgwRgIhAI0eTTh4PTld1HWUwEt5EX8TBt0wp1Os1%2FVVPuT%2FfKZhAiEAj09NtTbAxyghHZyhi0Tftn2NTeYBQ52%2BZZ068uStRvYqkgUIp%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARACGgwzMzU1OTQ1NzExNjIiDKFptcttpQ%2BzWZf67irmBPVpQ5WFwy%2BFN3u3pyaejIYxg7QXMv1m6zmfdW5w8GPOWLMUHMAOvrzaYYqwvXhhSasTY3qHx0AOAx4IRgCkDI78MTFesnJG%2FRP7aR3glr5P6e6u2wvK%2FRJNKjJIWNsAp97WEHuta%2FE08vdB6MeXFF%2BqMZcdc0z9BxlXIob3f54e4uN9mb2JCWccmafcFdy2B6TzOHu8U%2Flh4oof72pTK1cfwA83H50plf4u6W1CZSUFWjNgrfHL%2FcGxqGMyh23yiU5SXomSZk7WZSlzt7RIBmMAtFhokOtlbaAn8n7E4ozmjyKknsy7fCdcma%2BqAsOm8BM5T9EU8NylrfHipWvNDt5qtkPOrYq4C%2F94SBx2%2Fy7VVOIo9FylACn9fNOT4l03qQ21n9oOUnxpVt3iQjzRzSVk3vBiPSsLIL21lhIdNEVXi%2FENy7D6NSTPRRZd55ACK2KEoPrmnrMu6ak%2F8%2BAE%2FSbpcg5T9uVLff1AXMLpvDgY6sa3gZ%2FiA1o31Tzi6Z7%2BaT709QQUdzOd4OF7Jkw4g8I3idFOAAQChYo0JtjrWBsjcbyCWtmyKDbw4Mc5UEqRg1G1oZDtxiRXkYGtH66eMyU3Ka%2B7RGMM0UY09WlpoADDnAX4b9TpwNQmSxPqpVhnq2TmkaYvlbOtdUysWx%2FxJM1Id0QdOjzYsD655MBGzseYNH1283NB%2FggN9BhHnoqkwxtsyClfQtm%2FqvcrmUEv0Ha3QchX3k1b%2BTlGeZOL6xER%2FXCfStO3dyhzf5rfrfvYpvwZbvjidoyZsqYLkb8Yy51oggudMN%2BfEVDDlp7TsHZO9NaFCqbBMLmBqaoGOpkBbESOo4ppsEP%2B%2BqRFfJqkrczMqAIyUcX5GrGLOxH1aFtwYdhgPgxbEgts9vVZ1QPOK2YTa4IaCQ1uvu8jW1GhRxGvkB5O2rOxmV5Mup7iAUCouBkHoNsccgVGMNK8ST0MXMFXAa0XcJ%2FDYBKBHKDICB6PV%2BIj6SBf8BBCdy09FP4FbICRR410HL8XmnpPby22MIrbrI%2B5fKHv&X-Amz-Signature=8510b2d7bfdb5637beedf11d922fec3d0da94dfa4bf70cb6061b89981d6d5672",
+        "parentDocument": null,
+        "childDocuments": [],
+        "pages": [
+            {
+                "id": 43715115,
+                "pageIndex": 0,
+                "image": null,
+                "height": 841.8900146484375,
+                "width": 595.280029296875,
+                "rotation": 0,
+                "imageTranslated": null
+            },
+            {
+                "id": 43715116,
+                "pageIndex": 1,
+                "image": null,
+                "height": 841.8900146484375,
+                "width": 595.280029296875,
+                "rotation": 0,
+                "imageTranslated": null
+            }
+        ],
+        "ocrConfidence": null,
+        "reviewUrl": "https://app.affinda.com/review/vYTRXlrK?signature=eyJ1c2VyX2lkIjoxMDYxOH0:1r0MXO:rdfspjoQcNPIvP16uZJOl70JmHct0IfDn44jGxNlGk0:1r0MXO:X7ruRo2faM0ZkQGeoZinpWmjhjVl8GfuPeavfDhMwCA",
+        "createdDt": "2023-11-07T13:54:36.933799Z",
+        "errorDetail": "You do not have any more credits. Please contact sales@affinda.com",
+        "file": "https://affinda-api-data-prod-ap1.s3.amazonaws.com/media/documents/d029985e_XwTntEy.pdf?versionId=I_cuKVo.hom6nWeAyCWAd7VOfzbq69AM&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAU4IX6YWNMPPNHSU5%2F20231107%2Fap-southeast-2%2Fs3%2Faws4_request&X-Amz-Date=20231107T135438Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEG4aDmFwLXNvdXRoZWFzdC0yIkgwRgIhAI0eTTh4PTld1HWUwEt5EX8TBt0wp1Os1%2FVVPuT%2FfKZhAiEAj09NtTbAxyghHZyhi0Tftn2NTeYBQ52%2BZZ068uStRvYqkgUIp%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARACGgwzMzU1OTQ1NzExNjIiDKFptcttpQ%2BzWZf67irmBPVpQ5WFwy%2BFN3u3pyaejIYxg7QXMv1m6zmfdW5w8GPOWLMUHMAOvrzaYYqwvXhhSasTY3qHx0AOAx4IRgCkDI78MTFesnJG%2FRP7aR3glr5P6e6u2wvK%2FRJNKjJIWNsAp97WEHuta%2FE08vdB6MeXFF%2BqMZcdc0z9BxlXIob3f54e4uN9mb2JCWccmafcFdy2B6TzOHu8U%2Flh4oof72pTK1cfwA83H50plf4u6W1CZSUFWjNgrfHL%2FcGxqGMyh23yiU5SXomSZk7WZSlzt7RIBmMAtFhokOtlbaAn8n7E4ozmjyKknsy7fCdcma%2BqAsOm8BM5T9EU8NylrfHipWvNDt5qtkPOrYq4C%2F94SBx2%2Fy7VVOIo9FylACn9fNOT4l03qQ21n9oOUnxpVt3iQjzRzSVk3vBiPSsLIL21lhIdNEVXi%2FENy7D6NSTPRRZd55ACK2KEoPrmnrMu6ak%2F8%2BAE%2FSbpcg5T9uVLff1AXMLpvDgY6sa3gZ%2FiA1o31Tzi6Z7%2BaT709QQUdzOd4OF7Jkw4g8I3idFOAAQChYo0JtjrWBsjcbyCWtmyKDbw4Mc5UEqRg1G1oZDtxiRXkYGtH66eMyU3Ka%2B7RGMM0UY09WlpoADDnAX4b9TpwNQmSxPqpVhnq2TmkaYvlbOtdUysWx%2FxJM1Id0QdOjzYsD655MBGzseYNH1283NB%2FggN9BhHnoqkwxtsyClfQtm%2FqvcrmUEv0Ha3QchX3k1b%2BTlGeZOL6xER%2FXCfStO3dyhzf5rfrfvYpvwZbvjidoyZsqYLkb8Yy51oggudMN%2BfEVDDlp7TsHZO9NaFCqbBMLmBqaoGOpkBbESOo4ppsEP%2B%2BqRFfJqkrczMqAIyUcX5GrGLOxH1aFtwYdhgPgxbEgts9vVZ1QPOK2YTa4IaCQ1uvu8jW1GhRxGvkB5O2rOxmV5Mup7iAUCouBkHoNsccgVGMNK8ST0MXMFXAa0XcJ%2FDYBKBHKDICB6PV%2BIj6SBf8BBCdy09FP4FbICRR410HL8XmnpPby22MIrbrI%2B5fKHv&X-Amz-Signature=8510b2d7bfdb5637beedf11d922fec3d0da94dfa4bf70cb6061b89981d6d5672",
+        "collection": {
+            "identifier": "LvJDtivF",
+            "name": "Resumes",
+            "extractor": {
+                "id": 6,
+                "identifier": "resume",
+                "name": "Resume",
+                "baseExtractor": null,
+                "validatable": true
+            }
+        },
+        "workspace": {
+            "identifier": "BZWVsBZy",
+            "name": "Resume Parser"
+        },
+        "tags": [],
+        "isOcrd": false,
+        "isConfirmed": false,
+        "confirmedDt": null,
+        "isRejected": false,
+        "rejectedDt": null,
+        "isArchived": false,
+        "archivedDt": null,
+        "errorCode": "no_parsing_credits",
+        "confirmedBy": null,
+        "sourceEmail": null,
+        "createdBy": {
+            "id": 10618,
+            "name": "Shivansh",
+            "username": "shivansh.kate",
+            "email": "shivansh.kate@digimonk.in",
+            "avatar": null,
+            "master": null
+        },
+        "regionBias": {
+            "country": null,
+            "countries": null,
+            "squareCoordinates": null
+        }
+    },
+    "error": {
+        "errorCode": "no_parsing_credits",
+        "errorDetail": "You do not have any more credits. Please contact sales@affinda.com"
+    },
+    "warnings": [],
+    "extractor": "resume"
+}

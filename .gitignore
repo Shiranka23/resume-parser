@@ -1,0 +1,9 @@
+# # Ignore vscode stuff
+.vscode
+
+# ignore environment variable and virtual environment
+.env
+.venv
+
+#  ignore database
+db.*

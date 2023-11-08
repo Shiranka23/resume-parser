@@ -1,0 +1,85 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 15px;
+    background: #f2f2f2;
+  }
+  
+  .form-container {
+    max-width: 420px;
+    margin: 30px auto;
+    background: #fff;
+    text-align: left;
+    padding: 40px;
+    border-radius: 10px;
+  }
+  
+  label {
+    color: #aaa;
+    display: inline-block;
+    margin: 25px 0 15px;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+  }
+
+  input[type="file"] {
+    display: block;
+    padding: 10px 6px;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    color: #555;
+  }
+  
+  h2 {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .error-message {
+    color: #FF0000;
+  }
+  
+  .submit-button {
+    background-color: #ffa500;
+    color: white;
+    padding: 14px 0;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    width: 48%;
+    border-radius: 10px;
+  }
+  
+  .submit-button:hover {
+    background-color: #ff8500;
+  }
+</style>
+
+<div class="form-container">
+  <h2>Upload a file</h2>
+  <form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <div>
+      <label for="file"><strong>Document</strong></label>
+      <input type="file" placeholder="Choose File" name="file" required>
+      <div id="error" class="error-message">
+        {% if error_message %}
+        {{ error_message }}
+        {% endif %}
+      </div>
+      <p>Files with extensions .pdf and .docx are acceptable.</p>
+    </div>
+    <button type="submit" class="submit-button"><strong>Upload</strong></button>
+  </form>
+</div>
+{% endblock %}
