@@ -7,3 +7,4 @@
 
 #  ignore database
 db.*
+*.json
