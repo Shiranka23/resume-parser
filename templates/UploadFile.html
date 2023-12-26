@@ -1,85 +1,143 @@
 {% extends 'base.html' %}
-
+{% load static %}
 {% block content %}
+<script src="https://cdn.tailwindcss.com"></script>
 <style>
-  body {
-    display: flex;
-    justify-content: center;
-    font-family: Roboto, Arial, sans-serif;
-    font-size: 15px;
-    background: #f2f2f2;
-  }
-  
-  .form-container {
-    max-width: 420px;
-    margin: 30px auto;
-    background: #fff;
-    text-align: left;
-    padding: 40px;
-    border-radius: 10px;
-  }
-  
-  label {
-    color: #aaa;
-    display: inline-block;
-    margin: 25px 0 15px;
-    font-size: 0.8em;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: bold;
-  }
+    
+    body {
+        display: flex;
+        justify-content: center;
+        font-family: Roboto, Arial, sans-serif;
+        font-size: 15px;
+        background: #f2f2f2;
+    }
 
-  input[type="file"] {
-    display: block;
-    padding: 10px 6px;
-    width: 100%;
-    box-sizing: border-box;
-    border: none;
-    border-bottom: 1px solid #ddd;
-    color: #555;
-  }
-  
-  h2 {
-    font-weight: 400;
-    font-size: 24px;
-    text-align: center;
-  }
-  
-  .error-message {
-    color: #FF0000;
-  }
-  
-  .submit-button {
-    background-color: #ffa500;
-    color: white;
-    padding: 14px 0;
-    margin: 10px 0;
-    border: none;
-    cursor: pointer;
-    width: 48%;
-    border-radius: 10px;
-  }
-  
-  .submit-button:hover {
-    background-color: #ff8500;
-  }
+    .form-container {
+        max-width: 420px;
+        margin: 30px auto;
+        background: #fff;
+        text-align: left;
+        padding: 40px;
+        border-radius: 10px;
+    }
+    .title p{
+        font-size: 12px;
+    }
+    .info-text p{
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .header{
+        background-color: gray;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+
+    input[type="file"] {
+        display: block;
+        padding: 10px 6px;
+        width: 100%;
+        box-sizing: border-box;
+        border: none;
+        border-bottom: 1px solid #ddd;
+        color: #555;
+    }
+
+    h2 {
+        font-weight: 400;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .error-message {
+        color: #FF0000;
+    }
+    p{
+        text-align: center;
+    }
+    .submit-button {
+        background-color: #4a453c;
+        color: white;
+        padding: 4px 0;
+        margin-left:50px;
+        border: none;
+        cursor: pointer;
+        width: 70%;
+        border-radius: 5px;
+    }
+
+    .submit-button:hover {
+        background-color: #ff8500;
+    }
 </style>
 
-<div class="form-container">
-  <h2>Upload a file</h2>
-  <form method="post" enctype="multipart/form-data">
-    {% csrf_token %}
-    <div>
-      <label for="file"><strong>Document</strong></label>
-      <input type="file" placeholder="Choose File" name="file" required>
-      <div id="error" class="error-message">
-        {% if error_message %}
-        {{ error_message }}
-        {% endif %}
-      </div>
-      <p>Files with extensions .pdf and .docx are acceptable.</p>
+
+<div class="main-container">
+
+    <div class="header">
+        <div class="connexis-logo">
+            <img src="{% static './assets/connsxis.png' %}" alt="conniexis logo">
+        </div>
     </div>
-    <button type="submit" class="submit-button"><strong>Upload</strong></button>
-  </form>
-</div>
-{% endblock %}
+
+    <div class="file-upload-wrapper">
+        <div class="section-1">
+            <div class="title">
+                <p>RESUME CHECKER</p>
+            </div>
+            <div class="info-text">
+                <p>Is your resume getting you eliminated?</p>
+            </div>
+            <div class="info-text-2">
+                <p>Our free and fast <bold>AI resume checker will give you the <br> answer in just 3 minutes.</bold>
+                </p>
+            </div>
+        </div>
+        <div class="form-container">
+            <form method="post" enctype="multipart/form-data">
+                {% csrf_token %}
+                <div>
+                    <input type="file" placeholder="Choose File" name="file" required>
+                    <p>Drag and drop a file here</p>
+                    <p>File size should not exceed more then 2mb</p>
+                    <div id="error" class="error-message">
+                        {% if error_message %}
+                        {{ error_message }}
+                        {% endif %}
+                    </div>
+                </div>
+                <button type="submit" class="submit-button"><strong>Upload Your Resume</strong></button>
+            </form>
+        </div>
+        <div class="section-3">
+            <p class="footer-text-1">for over 22 years, Connexis Search Group recruiters have worked closely with hiring managers to learn
+                what <br>
+                they want to see in a resume. We Will check your resume for the siz most common mistales and provide
+                <br>
+                examples of how to fix these problems. </p>
+        </div>
+    </div>
+    <div class="footer">
+        <div>
+            <p>One Click to Making Your Resume More <br> Effective</p>
+        </div>
+    </div>
+    <div class="footer-images">
+        <div class="footer-upper">
+            <div class="img-1">
+                <img src="../assets/footer.png" alt="">
+            </div>
+            <div class="footer-bottom">
+                <div class="connexis-logo">
+                    <img src="" alt="">
+                </div>
+                <div class="policies">
+                    <p class="t-c"> Terms of User</p>
+                    <p class="p-p"> Privacy policy</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% endblock %}

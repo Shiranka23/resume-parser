@@ -8,3 +8,8 @@
 #  ignore database
 db.*
 *.json
+
+# files
+templates
+test_data
+media

@@ -1,13 +1,22 @@
 import os
+import json
+from uuid import uuid4
+
+from rest_framework import status 
+from rest_framework.response import Response
+from rest_framework.permissions import AllowAny
+from rest_framework.generics import CreateAPIView
+
+from django.shortcuts import render
 from django.urls import reverse_lazy
+from django.http import HttpResponseRedirect
 from django.views.generic.edit import CreateView
+
+from .validate import validate
+from .parse import extract_data
 from .models import ResumeParser
 from .forms import ResumeParserForm
-from .parse import extract_data
-from django.http import HttpResponseRedirect
-from django.shortcuts import render
-from uuid import uuid4
-from .validate import validate
+from .serializers import ResumeParserSerializer
 
 def generateUniqueName(filename):
     file_name = str(uuid4().hex)[:8]
@@ -15,7 +24,55 @@ def generateUniqueName(filename):
     full_name = f"{file_name}.{extension}"
     return full_name
 
-class ResumeParserAPIView(CreateView):
+
+class ResumeParserAPIView(CreateAPIView):
+    serializer_class=ResumeParserSerializer
+    permission_classes=(AllowAny,)
+    def post(self, request, *args, **kwargs):
+        
+        try:
+            # print(request.data)
+            file=request.data['file']
+            file_name=request.data['file'].name
+
+            # print(file_name)
+            fileName = generateUniqueName(file_name)
+
+            # Create a resume parser object and save the file
+            obj = ResumeParser.objects.create(file=file, file_name=fileName)
+            extracted_data = extract_data(fileName)
+            # print('DATA EXTRACTED')
+            score_response, issues, checked_data = validate(extracted_data)
+            # print('data validated')
+
+            context = {
+                "score": score_response,
+                "fixes": issues,
+                "checked_data": checked_data,
+            }
+
+            instance=ResumeParser.objects.get(file_name=fileName)
+            instance.delete()
+
+            status_code=status.HTTP_200_OK
+            response={
+                'success':'True',
+                'status':status_code,
+                'message':"resume parsed successfully",
+                'context':context,
+            }
+            return Response(response,status=status_code)
+        except:
+            status_code=status.HTTP_400_BAD_REQUEST
+            response={
+                'success':'False',
+                'status code':status_code,
+                'message':"resume parsing failed"
+            }
+            return Response(response)
+            
+
+class ResumeParserView(CreateView):
     model = ResumeParser
     form_class = ResumeParserForm
     template_name = 'UploadFile.html'
@@ -52,12 +109,13 @@ class ResumeParserAPIView(CreateView):
                     "msg": msg,
                     "checked_data": checked_data,
                 }
-                return render(request, 'success_template.html', context)
+                return render(request, 'success.html', context)
             except Exception as e:
                 print(str(e))
                 return render(request, 'UploadFile.html', {'error_message': str(e)})
         else:
             return render(request, 'UploadFile.html', {'form': form})
+
 
 def success(request):
     return render(request, 'success_template.html')

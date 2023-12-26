@@ -27,7 +27,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = env('DJANGO_SECRET_KEY','The One Piece is real!')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = env('DJANGO_SECRET_KEY')
+DEBUG = env('DJANGO_DEBUG')
 
 ALLOWED_HOSTS = []
 if env('DJANGO_ALLOWED_HOST'):
@@ -51,6 +51,9 @@ INSTALLED_APPS = [
     'resparser',
 
     # Installed Apps
+    'rest_framework',
+    'drf_yasg',
+    'corsheaders',
 ]
 
 MIDDLEWARE = [
@@ -61,7 +64,15 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+
+      'corsheaders.middleware.CorsMiddleware',
+
 ]
+
+CORS_ORIGIN_ALLOW_ALL = False
+CORS_ORIGIN_WHITELIST = (
+  'http://localhost:3000',
+)
 
 ROOT_URLCONF = 'core.urls'
 
@@ -88,19 +99,19 @@ WSGI_APPLICATION = 'core.wsgi.application'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    },
     # 'default': {
-    #     'ENGINE': 'django.db.backends.'+str(env('DB_CONNECTION')),
-    #     'NAME': env('DB_DATABASE'),
-    #     'USER': env('DB_USERNAME'), 
-    #     'PASSWORD': env('DB_PASSWORD'), 
-    #     'HOST': env('DB_HOST'),
-    #     'PORT': env('DB_PORT'),
-    #     # 'OPTIONS': {"init_command": "SET default_storage_engine=INNODB",},
-    # }
+    #     'ENGINE': 'django.db.backends.sqlite3',
+    #     'NAME': BASE_DIR / 'db.sqlite3',
+    # },
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': env('DB_DATABASE'),
+        'USER': env('DB_USERNAME'), 
+        'PASSWORD': env('DB_PASSWORD'), 
+        'HOST': env('DB_HOST'),
+        'PORT': env('DB_PORT'),
+        # 'OPTIONS': {"init_command": "SET default_storage_engine=INNODB",},
+    }
 }
 
 
@@ -155,3 +166,6 @@ FILE_UPLOAD_MAX_MEMORY_SIZE = DATA_UPLOAD_MAX_MEMORY_SIZE
 AFFINDA_API_KEY=env('AFFINDA_API_KEY')
 AFFINDA_URL=env('AFFINDA_URL')
 AFFINDA_WORKSPACE=env('AFFINDA_WORKSPACE')
+ 
+
+# print('API KEY : ',AFFINDA_API_KEY,'URL : ',AFFINDA_URL,'WORKSPACE ID : ',AFFINDA_WORKSPACE)
